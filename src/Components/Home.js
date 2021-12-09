@@ -8,7 +8,7 @@ const Home = () => {
   return (
     <>
       {news === undefined ? (
-        <h1>Load..</h1>
+        <h1>Loading..</h1>
       ) : (
         news.map((data) => {
           return (
